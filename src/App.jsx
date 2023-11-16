@@ -25,10 +25,10 @@ function App() {
   }
 
   return (
-    <>
+    <section>
       <Nav In = {clickableIn} Out = {clickableOut} darkMode = {darkMode} toggleDarkMode = {toggle}/>
       <Main darkMode = {darkMode}/>
-    </>
+    </section>
   )
 }
 
